@@ -1,5 +1,5 @@
 Feature: End to end feature
-  //tags
+
 
   Scenario Outline: Create an order as a existing user
 
