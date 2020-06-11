@@ -12,8 +12,8 @@ import java.net.URL;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"pretty", "html:target/cucumber-html-report", "json:target/cucumber-json-report.json"},
-        tags = {"@namita"}
+        plugin = {"pretty", "html:target/cucumber-html-report", "json:target/cucumber-json-report.json"}
+        
 )
 public class MyTestRunner
 {

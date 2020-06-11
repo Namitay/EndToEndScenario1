@@ -1,6 +1,6 @@
 Feature: End to end feature
   //tags
-  @namita
+
   Scenario Outline: Create an order as a existing user
 
     Given I navigate to url
