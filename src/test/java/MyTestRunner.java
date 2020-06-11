@@ -26,22 +26,22 @@ public class MyTestRunner
     @BeforeClass
     public static void startBrowser() throws InterruptedException {
         DesiredCapabilities caps = new DesiredCapabilities();
-       /* caps.setCapability("browser", "Edge");
+       caps.setCapability("browser", "Edge");
         caps.setCapability("browser_version", "84.0 beta");
         caps.setCapability("os", "Windows");
         caps.setCapability("os_version", "10");
         caps.setCapability("resolution", "1024x768");
         caps.setCapability("name", "namita Test");
-*/
 
-        caps.setCapability("browser", "Chrome");
+
+      /*  caps.setCapability("browser", "Chrome");
         caps.setCapability("browser_version", "84.0 beta");
         caps.setCapability("os", "OS X");
         caps.setCapability("os_version", "Catalina");
         caps.setCapability("resolution", "1024x768");
         caps.setCapability("name", "Bstack-[Java] Sample Test");
 
-
+*/
 
 
 
