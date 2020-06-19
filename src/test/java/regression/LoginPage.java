@@ -1,4 +1,4 @@
-package PageObject;
+package regression;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -1,7 +1,6 @@
-import PageObject.CheckoutPage;
-import PageObject.HomePage;
-import PageObject.LoginPage;
-import PageObject.ShoppingCartPage;
+package regression;
+
+
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -13,7 +12,6 @@ import io.cucumber.java.en.When;
 //import junit.textui.TestRunner;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MyStepdefs extends MyTestRunner {
